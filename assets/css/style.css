@@ -15,7 +15,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("https://i.pinimg.com/originals/c4/d1/ff/c4d1ff4b7f8b78115d8d145335da388f.gif");
+  background-image: url("https://i.pinimg.com/originals/70/d3/ff/70d3ff4eb7385dbcef93c0a95db8920a.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -407,32 +407,18 @@ html {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1470px) {
+@media screen and (max-width: 90000px) {
   .card-container {
-    width: 1100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .card:last-child {
-    display: none;
+    display: flex;
   }
 }
 
-@media screen and (max-width: 1150px) {
-  .card-container {
-    width: 720px;
-  }
-  .card:nth-child(3) {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .card-container {
-    width: max-content;
-  }
-  .card:nth-child(2) {
-    display: none;
-  }
-}
 
 /* Elements below can be removed ( they are just for demo purposes ) */
 
